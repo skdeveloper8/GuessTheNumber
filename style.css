@@ -1,0 +1,16 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(10, 9, 9);
+    /* margin-left: 8rem; */
+    text-align: center;
+    margin: 0.5rem;
+    color: wheat;
+    border: 10px solid wheat;
+    width:35rem;
+    position:absolute;
+    left: 20%;
+}
+
