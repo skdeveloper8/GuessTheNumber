@@ -13,4 +13,8 @@ body{
     position:absolute;
     left: 20%;
 }
+#subt:hover{
+    cursor:grabbing;
+
+}
 
