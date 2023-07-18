@@ -8,24 +8,28 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-    <h1 style="color: wheat;">Number Guessing Game</h1>
-    <p style="margin: 1rem;">Try and guess a number between 1 to 100</p>
-    <p style="margin-left: 2rem;">You have 10 attempts to guess that number</p>
-    <br>
-    <form class="form" style="margin-left: 2rem;">
-        <label for="guessField" id="guess" style="font-size:2rem;">Guess a number</label>
+<body id="game">
+    <div id="hideShow">
+        <h1 style="color: wheat;">Number Guessing Game</h1>
+        <p style="margin: 1rem;">Try and guess a number between 1 to 100</p>
+        <p style="margin-left: 2rem;">You have 10 attempts to guess that number</p>
         <br>
-        <input type="text" id="guessField" class="guessField" style="margin-top: 1rem;">
-        <br>
-        <input type="submit" id="subt" value="Submit guess" class="guessSubmit" style="margin: 0.5rem;">
-    </form>
-    <div class="resultParas" style="margin-left:2rem ;">
-        <p style="margin: 0.5rem ;">previous Guesses: <span class="guesses"></span></p>
-        <p style="margin: 0.4;">Guess Remaining: <span class="lastResult">10</span></p>
-        <p class="lowOrHi"></p>
+        <form class="form" style="margin-left: 2rem;">
+            <label for="guessField" id="guess" style="font-size:2rem;">Guess a number</label>
+            <br>
+            <input type="text" id="guessField" class="guessField" style="margin-top: 1rem;">
+            <br>
+            <input type="submit" id="subt" value="Submit guess" class="guessSubmit" style="margin: 0.5rem;">
+        </form>
+        <div class="resultParas" style="margin-left:2rem ;">
+            <p style="margin: 0.5rem ;">previous Guesses: <span class="guesses"></span></p>
+            <p style="margin: 0.4;">Guess Remaining: <span class="lastResult">10</span></p>
+            <p class="lowOrHi"></p>
 
+        </div>
     </div>
+    <button id="btn">HIDE/SHOW</button>
+
 
 
     <script src="script.js"></script>
