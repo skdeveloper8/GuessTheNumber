@@ -13,7 +13,19 @@ let prevGuess = []
 let numGuess = 1
 
 let playGame = true
+document.getElementById('btn').addEventListener('click',function(e){
+    // console.log(e)
+    let hideShow=document.getElementById('hideShow')
+    if(hideShow.style.display!='none'){
+        
+        hideShow.style.display='none'
 
+    }
+    else{
+    hideShow.style.display='block'
+    }
+
+},false)
 
 if (playGame) {
     submit.addEventListener('click', function (e) {
